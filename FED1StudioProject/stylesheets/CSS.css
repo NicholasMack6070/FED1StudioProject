@@ -1,0 +1,37 @@
+﻿
+body {
+}
+
+#title {
+    background-color: greenyellow;
+    color: darkred;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1 {
+    background-color: blue;
+    color: orangered;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.article {
+    background-color: slategrey;
+    color: black;
+    font-style: oblique;
+    font-weight:lighter;
+}
+
+h3 {
+    background-color: whitesmoke;
+    color: black;
+    font-style:normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+li {
+    color: blue;
+
+}
