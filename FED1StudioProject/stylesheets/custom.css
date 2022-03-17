@@ -1,0 +1,148 @@
+﻿
+#title {
+    background-color: none;
+    color: darkred;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1 {
+    color: orangered;
+    font-style: italic;
+    font-weight: bold;
+    text-align:center;
+}
+
+#whyChooseUs{
+    text-align:left;
+}
+
+.article {
+    background-color: slategrey;
+    color: black;
+    font-style: oblique;
+    font-weight:lighter;
+}
+
+h3 {
+    background-color: whitesmoke;
+    color: black;
+    font-style:normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+li {
+    display: inline;
+    color: blue;
+}
+
+header, body {
+    font-family: Papyrus, fantasy;
+}
+
+ul li {
+    list-style-image: url();
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+    nav ul li a {
+        padding: .4em 1em; /*1st Top/Bottom 2nd Left/Right*/
+        display: block;
+    }
+
+nav a {
+    font-weight: bold;
+    color: lightsalmon;
+}
+
+    nav a:hover, nav a:hover, nav a:focus {
+        text-decoration: none;
+    }
+
+nav ul {
+    background-color: teal;
+    padding: 0;
+    border-top: 2px dotted darkgray;
+    border-bottom: 2px dotted darkgray;
+}
+
+nav li:hover {
+    background-color: darkblue;
+}
+
+header div{
+    padding: 25px 50px 75px 100px;
+    text-align: center;
+    border: groove;
+    border-color: white;
+}
+h3 {
+    text-align: center;
+}
+.mainWrapper{
+    padding: 1%
+}
+footer{
+    padding: 3%;
+    text-align: center;
+    border: dashed;
+    border-color: deeppink;
+    border-radius: 30%;
+}
+footer ul li a{
+    text-align:right;
+}
+p {
+    margin: auto;
+}
+#Image1, #Image3 {
+    float: right;
+    height: 75px;
+    margin-left: 20px;
+}
+
+#Image2 {
+    float: left;
+    height: 75px;
+    margin-right: 20px;
+}
+
+header {
+    background-image: url('../images/laura-adai-ya4B273wYpE-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-image: url('../images/background1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#teamImage1, #teamImage2, #teamImage3{
+    float:left;
+}
+.mainWrapper{
+    padding: 1%;
+}
+
+nav ul{
+    margin: 0;
+}
+aside h2 {
+    padding: 2%;
+}
+#cssLeftColumn {
+    width: 75%;
+    float: left;
+    border:1px dashed black;
+    box-sizing:border-box;
+}
+#cssRightColumn{
+    width:25%;
+    float:right;
+}
