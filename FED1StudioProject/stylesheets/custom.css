@@ -146,3 +146,29 @@ aside h2 {
     width:25%;
     float:right;
 }
+
+div.classTopic {
+    margin: 5px;
+    border: 2px solid #ccc;
+    display: inline-block;
+    width: 350px;
+}
+
+    div.classTopic:hover {
+        border: 1px solid lightsalmon;
+    }
+
+    div.classTopic img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.classTopic a:hover {
+        background-color: lightsalmon;
+    }
+
+#classSubjects {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
