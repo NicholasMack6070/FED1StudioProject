@@ -10,24 +10,25 @@ h1 {
     color: orangered;
     font-style: italic;
     font-weight: bold;
-    text-align:center;
+    text-align: center;
 }
 
-#whyChooseUs{
-    text-align:left;
+#whyChooseUs {
+    text-align: left;
 }
 
 .article {
     background-color: slategrey;
     color: black;
     font-style: oblique;
-    font-weight:lighter;
+    font-weight: lighter;
+    opacity: .8;
 }
 
 h3 {
     background-color: whitesmoke;
     color: black;
-    font-style:normal;
+    font-style: normal;
     font-weight: bold;
     font-size: 40px;
 }
@@ -74,31 +75,38 @@ nav li:hover {
     background-color: darkblue;
 }
 
-header div{
+header div {
     padding: 25px 50px 75px 100px;
     text-align: center;
     border: groove;
     border-color: white;
 }
+
 h3 {
     text-align: center;
 }
-.mainWrapper{
+
+.mainWrapper {
     padding: 1%
 }
-footer{
+
+#footer {
+    color: darkslategray;
     padding: 3%;
     text-align: center;
-    border: dashed;
-    border-color: deeppink;
-    border-radius: 30%;
+    border: solid;
+    border-color: black;
+    border-radius: 5%;
 }
-footer ul li a{
-    text-align:right;
+
+footer ul li a {
+    text-align: right;
 }
+
 p {
     margin: auto;
 }
+
 #Image1, #Image3 {
     float: right;
     height: 75px;
@@ -123,28 +131,32 @@ body {
     background-position: center;
 }
 
-#teamImage1, #teamImage2, #teamImage3{
-    float:left;
+#teamImage1, #teamImage2, #teamImage3 {
+    float: left;
 }
-.mainWrapper{
+
+.mainWrapper {
     padding: 1%;
 }
 
-nav ul{
+nav ul {
     margin: 0;
 }
+
 aside h2 {
     padding: 2%;
 }
+
 #cssLeftColumn {
     width: 75%;
     float: left;
-    border:1px dashed black;
-    box-sizing:border-box;
+    border: 1px dashed black;
+    box-sizing: border-box;
 }
-#cssRightColumn{
-    width:25%;
-    float:right;
+
+#cssRightColumn {
+    width: 25%;
+    float: right;
 }
 
 div.classTopic {
@@ -172,3 +184,41 @@ div.classTopic {
     width: 85%;
     text-align: center;
 }
+
+.clear {
+    clear: both;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse; /*avoids duplicate borders*/
+}
+
+table {
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    padding: 0.3em;
+}
+
+thead {
+    background-color: #96f3fa;
+}
+
+tfoot {
+    background-color: teal;
+}
+
+    tfoot tr, tfoot td {
+        border: 0;
+    }
+
+tbody tr:nth-child(even) {
+    background-color: lightsalmon; /*achieves alternating bg color*/
