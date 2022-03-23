@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1684
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FED1StudioProject", "FED1StudioProject\FED1StudioProject.csproj", "{93829C39-5A06-433E-81A0-D09207CD0912}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSandbox", "..\FED1Sandbox\WebSandbox\WebSandbox.csproj", "{2AA38F81-16BF-4B56-91B1-454A772C0F2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{93829C39-5A06-433E-81A0-D09207CD0912}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93829C39-5A06-433E-81A0-D09207CD0912}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93829C39-5A06-433E-81A0-D09207CD0912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA38F81-16BF-4B56-91B1-454A772C0F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA38F81-16BF-4B56-91B1-454A772C0F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA38F81-16BF-4B56-91B1-454A772C0F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA38F81-16BF-4B56-91B1-454A772C0F2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

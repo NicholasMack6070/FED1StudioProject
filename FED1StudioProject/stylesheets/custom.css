@@ -1,20 +1,19 @@
 ﻿
 #title {
-    background-color: none;
-    color: darkred;
-    font-style: italic;
-    font-weight: bold;
+    color: greenyellow;
+    font-size: 50px;
+    text-decoration: none;
+    font-family: 'Bungee Inline', cursive;
 }
 
 h1 {
-    color: orangered;
-    font-style: italic;
-    font-weight: bold;
+    color: darkslateblue;
     text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 #whyChooseUs {
-    text-align: left;
+    text-align: center;
+    font-size: 30px;
 }
 
 .article {
@@ -35,7 +34,6 @@ h3 {
 
 li {
     color: blue;
-    
 }
 
 header, body {
@@ -46,33 +44,39 @@ ul li {
     list-style-image: url();
 }
 
-nav.navHorizontal ul li{
+nav.navHorizontal ul li {
     display: inline-block;
 }
 
-    nav ul li a {
-        padding: .4em 1em; /*1st Top/Bottom 2nd Left/Right*/
-        display: block;
-    }
+nav ul li a {
+    padding: .4em 1em; /*1st Top/Bottom 2nd Left/Right*/
+    display: block;
+}
 
 nav a {
     font-weight: bold;
-    color: lightsalmon;
+    color: black;
+    text-decoration: none;
 }
 
     nav a:hover, nav a:hover, nav a:focus {
         text-decoration: none;
     }
 
+/*figure out how to make text solid against its transparent background*/
 nav ul {
-    background-color: teal;
+    background-color: grey;
+    opacity:0.7;
     padding: 0;
     border-top: 2px dotted darkgray;
     border-bottom: 2px dotted darkgray;
 }
 
 nav li:hover {
-    background-color: darkblue;
+    background-color: whitesmoke;
+    opacity: 0.4;
+    border-radius:15%;
+/*Add a graident to make opacity mostly solid in center and opaque to outer.*/
 }
 
 header div {
@@ -94,9 +98,6 @@ h3 {
     color: darkslategray;
     padding: 3%;
     text-align: center;
-    border: solid;
-    border-color: black;
-    border-radius: 5%;
 }
 
 footer ul li a {
@@ -109,13 +110,13 @@ p {
 
 #Image1, #Image3 {
     float: right;
-    height: 75px;
+    height: 145px;
     margin-left: 20px;
 }
 
 #Image2 {
     float: left;
-    height: 75px;
+    height: 145px;
     margin-right: 20px;
 }
 
@@ -133,6 +134,7 @@ body {
 
 #teamImage1, #teamImage2, #teamImage3 {
     float: left;
+    border-radius: 100%;
 }
 
 .mainWrapper {
@@ -167,7 +169,7 @@ div.classTopic {
 }
 
     div.classTopic:hover {
-        border: 1px solid lightsalmon;
+        border: 1px solid darkgrey;
     }
 
     div.classTopic img {
@@ -176,7 +178,7 @@ div.classTopic {
     }
 
     div.classTopic a:hover {
-        background-color: lightsalmon;
+        background-color: darkgrey;
     }
 
 #classSubjects {
@@ -208,6 +210,10 @@ td, th {
     padding: 0.3em;
 }
 
+td{
+    text-align:center;
+}
+
 thead {
     background-color: #96f3fa;
 }
@@ -222,3 +228,37 @@ tfoot {
 
 tbody tr:nth-child(even) {
     background-color: lightsalmon; /*achieves alternating bg color*/
+}
+
+
+#exLinkFB {
+    text-decoration: none;
+    color: blue;
+    background-color: whitesmoke;
+    padding: 2px;
+    border: none;
+    margin: 25px;
+    border-radius: 25%;
+}
+
+#exLinkTW {
+    text-decoration: none;
+    color: mediumblue;
+    background-color: whitesmoke;
+    padding: 2px;
+    border: none;
+    margin: 25px;
+    border-radius: 25%;
+}
+
+#exLinkIG {
+    text-decoration: none;
+    color: darkblue;
+    background-color: whitesmoke;
+    padding:2px;
+    border: none;
+    margin: 25px;
+    border-radius:25%;
+}
+
+
